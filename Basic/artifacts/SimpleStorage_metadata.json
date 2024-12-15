@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "favNumber",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
 					{
@@ -24,6 +37,11 @@
 						"internalType": "uint256",
 						"name": "x",
 						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "y",
+						"type": "bool"
 					}
 				],
 				"name": "store",
@@ -73,11 +91,11 @@
 	},
 	"sources": {
 		"Basic/SimpleStorage.sol": {
-			"keccak256": "0x31a34fb0045bc92b64b7e3c93b77a33029b2f7a5ee513287ade1f6cbcaef7249",
+			"keccak256": "0xab2713004bc01ac102ee482962dc8fee80557588aba0f3403524886209fee262",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4b6e081af91de58ab6779089d17b5e272c44712c951d21234340bc1f2474dbad",
-				"dweb:/ipfs/QmNiaprXZxUHgikzmmwi6aABB4z1Jbcdj349a3cdxcQ9e9"
+				"bzz-raw://3f08b79337c87903025d2c587ba28318879855bcbd9085891972863fb2066350",
+				"dweb:/ipfs/QmdV2MqB6EuMTfwfvEVjQfPFswTUuerGVsbiYjZZBdcyoY"
 			]
 		}
 	},
