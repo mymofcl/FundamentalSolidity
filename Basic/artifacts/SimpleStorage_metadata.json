@@ -20,6 +20,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getFavNum",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
 					{
@@ -91,11 +104,11 @@
 	},
 	"sources": {
 		"Basic/SimpleStorage.sol": {
-			"keccak256": "0xab2713004bc01ac102ee482962dc8fee80557588aba0f3403524886209fee262",
+			"keccak256": "0xbfd5a086913b185b3c5b502744260756d01ef1b8a052e7c9087930c06c8391e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3f08b79337c87903025d2c587ba28318879855bcbd9085891972863fb2066350",
-				"dweb:/ipfs/QmdV2MqB6EuMTfwfvEVjQfPFswTUuerGVsbiYjZZBdcyoY"
+				"bzz-raw://251bd1e8b548dbe484ef2dfb48c98e932510f064caa574ae8aa9e7a52f6afeac",
+				"dweb:/ipfs/QmWwM96g1EB7rNdmBPWp72Ja6TZ7Gvv9ez8xhZM5gQ6sEw"
 			]
 		}
 	},

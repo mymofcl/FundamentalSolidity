@@ -12,4 +12,7 @@ contract SimpleStorage{
     function retrieve() public view returns (uint) {
        return storedData; 
     }
+    function getFavNum() public view returns(bool) {
+        return favNumber;
+    }
 }
