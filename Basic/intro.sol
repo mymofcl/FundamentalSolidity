@@ -17,6 +17,9 @@ contract DataType{
             hasFavNum = !hasFavNum;
             delete favNum;
         }
+        else {
+            require(hasFavNum,"You do not have any favourite number. Set your favourite number first.");
+        }
     }
 
 }
