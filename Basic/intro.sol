@@ -5,6 +5,7 @@ contract DataType{
     uint public favNum;
     bool public hasFavNum;
     address public owner = msg.sender;
+    
 
     function setFavNumber(uint _num)public {
         favNum = _num;
